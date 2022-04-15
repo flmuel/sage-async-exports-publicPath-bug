@@ -1,3 +1,4 @@
+import './react-habitat'
 import {domReady} from '@roots/sage/client';
 
 /**

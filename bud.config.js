@@ -32,10 +32,10 @@ module.exports = async (app) => {
      *
      * This should be the URL you use to visit your local development server.
      */
-    .proxy('http://example.test')
+    .proxy('http://wordpress:8888')
 
     /**
      * Development URL to be used in the browser.
      */
-    .serve('http://0.0.0.0:3000');
+    .serve('http://localhost:3000');
 };
