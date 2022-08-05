@@ -1,3 +1,9 @@
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Project
 /node_modules
 /vendor
 /public
@@ -5,3 +11,4 @@
 .budfiles
 npm-debug.log
 yarn-error.log
+composer.lock

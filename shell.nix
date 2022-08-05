@@ -6,8 +6,8 @@ stdenv.mkDerivation rec {
   propagatedBuildInputs = [
     nodejs-16_x
     yarn
-    php74
-    php74Packages.composer
+    php
+    php81Packages.composer
     rsync
   ];
 
